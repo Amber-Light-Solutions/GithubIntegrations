@@ -1,0 +1,26 @@
+{
+  "data" : {
+    "previous_version" : "{version}",
+	"owner" : "<Owner>",
+	"repo" : "RepoName",
+	"product" : "Product",
+	"responsible_engineers" : "Developer/Test Engineer"
+  },
+  "fields" : {
+    "DescriptionOfModification" : [
+	  ["TLA-XXX", "<Link>"]
+	],
+    "CompatibilityChangeComments" : [
+      ["N/A", "N/A", "N/A", "N/A"]
+    ],
+    "InternalParametersAndConfiguration" : [
+      ["N/A", "N/A", "N/A"]
+    ],
+    "ManualUpgradeProcess" : {
+      "markdown" : ["upgrade.md"]
+    },
+    "ManualRollbackProcess" : {
+      "markdown" : ["rollback.md"]
+    }
+  }
+}
